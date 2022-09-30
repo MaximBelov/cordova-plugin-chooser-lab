@@ -1,0 +1,7 @@
+{
+  "name": "cordova-plugin-chooser-lab",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button (click)="testSelectFile()">
+    <ion-label>Test file chooser</ion-label>
+  </ion-button>
+  <div>
+    {{result | json}}
+  </div>
+  <div>
+    {{metadata | json}}
+  </div>
+
+</ion-content>
